@@ -47,7 +47,7 @@ while read -d ':' _CCSSB_ws_dir; do
     continue
   fi
   # make sure shell sources the workspace on startup
-  _CCSSB_rcfile="$_CCSSB_rcfile . $_CCSSB_ws_dir/prefix.bash ;"
+  _CCSSB_rcfile="$_CCSSB_rcfile . $_CCSSB_ws_dir/local_setup.bash ;"
 
   # Source the workspace here to get the workspace name
   COLCON_SPAWN_SHELL_GET_WORKSPACE_INFO=workspace_name
