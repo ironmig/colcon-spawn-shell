@@ -11,7 +11,7 @@ It allows quickly un-chaining workspaces by exiting the spawned shell.
 The shell's prompt is edited to show the workspace order.
 The only supported shell is **bash**.
 
-.. image:: doc/colcon_spawn_shell_example.gif
+.. image:: https://raw.githubusercontent.com/colcon/colcon-spawn-shell/8de6d0a687619bfd8342647b6d216695bb76dfaf/doc/colcon_spawn_shell_example.gif
 
 Quick Start
 -----------
